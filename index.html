@@ -1,55 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment page 3</title>
-    
-    <style>ol li{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    article> ol{
-        background-color:black;
+
+    <style>
+      body {
+        font-size: large;
+      }
+      ol li {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      div p {
+        color: blue;
+      }
+      article > ol > li {
+        background-color: black;
         list-style-type: decimal;
         color: aqua;
         list-style-position: inside;
-        padding: 2% 5%;
+        padding: 5%;
         white-space: nowrap;
-    }
-    article{
+      }
+      article {
         text-align: left;
-        width: 300px;
-        
-        line-height: 200%;
-    }
-    
+        width: 360px;
+
+        line-height: 150%;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <center>
-    <h1>QUESTION 3</h1>
-    <h2 align="center">Some of recent movies and series I watched </h2>
-    <article >
-<ol >
-    <li>DARK</li>
-    <li>SECTION 375</li>
-    <li>THE INNOCENT</li>
-    <li>WAKE UP SID</li>
-    <li>MIMI</li>
-    <li>TALWAR</li>
-    <li>THE WOLF OF WALL STREET</li>
-    <li>FOREST GUMP</li>
-    <li>BEFORE SUNRISE</li>
-    <li>ABOUT TIME</li>
-    <li>FIVE HUNDRED DAYS OF SUMMER</li>
-    <li>YEH JAWANI HAI DEEWANI</li>
-    <li>ANDHADHUN</li>
-
-</ol>
-    </article>
-
-    <a href="https://github.com/mesandhya2403/webassignmentq3/blob/main/index.html"><button>VIEW CODE</button></a>
-</center>
-</body>
+      <h1>QUESTION 3</h1>
+      <hr />
+      <p>The text below is modified using descendent selector "div p"</p>
+      <div>
+        <p>The color of this text is changed using descendent selector.</p>
+      </div>
+      <hr />
+      <p>
+        The background color of the list items is changed using the child
+        selector "article > ol > li"
+      </p>
+      <h2 align="center">Some of recent movies and series I watched</h2>
+      <article>
+        <ol>
+          <li>DARK</li>
+          <li>SECTION 375</li>
+          <li>THE INNOCENT</li>
+          <li>WAKE UP SID</li>
+          <li>MIMI</li>
+          <li>TALWAR</li>
+          <li>THE WOLF OF WALL STREET</li>
+          <li>FOREST GUMP</li>
+          <li>BEFORE SUNRISE</li>
+          <li>ABOUT TIME</li>
+          <li>FIVE HUNDRED DAYS SUMMER</li>
+          <li>YEH JAWANI HAI DEEWANI</li>
+          <li>ANDHADHUN</li>
+        </ol>
+      </article>
+      <hr />
+      <a
+        href="https://github.com/mesandhya2403/webassignmentq3/blob/main/index.html"
+        ><button>VIEW CODE</button></a >
+    </center>
+  </body>
 </html>
